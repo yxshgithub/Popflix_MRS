@@ -22,14 +22,23 @@ Following are Libraies used: \
 
 
 ## Screenshots
+Website Preview on localhost 
+
+
 
 ![Website Preview](/images/Website_preview.png)  </br>
 
 Movies Recommended for Spectre 
+
+
 ![Movie Recommended for Skyfall](/images/movie_recomm1.png) </br>
 
 Movies Recommended for Man of Steel 
+
+
 ![Movie Recommended for Man of steel](/images/movie_recomm2.png)  </br>
 
 Deployed using Streamlit clould </br>
+
+
 ![Movie Recommended for Batman Begins](/images/Deployed_site.png)  </br>
