@@ -1,10 +1,13 @@
 # Popflix - Movie Recommendor System 
 
 Popflix a movie recommending system using dataset from Kaggle of 5000 Hollywood movies. 
-Implement bby Using Content based filtering and K-neighbouring algo.
+Implement bby Using Content based filtering and K-neighbouring Algorithm.
+
+
 
 ## Techstack 
   Python 
+  
   
 ## Excecuting on local host
   streamlit run app.py
@@ -28,5 +31,5 @@ Movies Recommended for Spectre
 Movies Recommended for Man of Steel 
 ![Movie Recommended for Man of steel](/images/movie_recomm2.png)  </br>
 
-Website Deployed on Streamlit 
-![Movie Recommended for Batman Begins](/images/Deloyed_site.png)  </br>
+Deployed using Streamlit clould </br>
+![Movie Recommended for Batman Begins](/images/Deployed_site.png)  </br>
