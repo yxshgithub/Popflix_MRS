@@ -14,7 +14,7 @@ finalresults_scores = []
 def recommended(movie):
     Recom_list = [];
     index = moviesinfo[moviesinfo['original_title'] == movie].index[0]
-    distances = sorted(list(enumerate(similarity[index])),reverse=True,key = lambda x: x[1])
+    distances = sorted(list(enumerate(similarities[index])),reverse=True,key = lambda x: x[1])
 
     finalresults = []
     for i in distances[1:6]:
@@ -46,7 +46,12 @@ def get_score(movieid):
 
 moviesinfo = pickle.load(open('movies_list.pkl','rb'))
 movieslist = moviesinfo['original_title'].values
-similarity = pickle.load(open('similarity.pkl','rb'))
+
+
+
+# this is to fix the error during deployment (1st commit to resolve the issue)
+# similarity = pickle.load(open('similarity.pkl','rb'))
+similarities = pickle.load(open('similarity.pkl','rb'))
 
 st.title("Movie Recommendation System 🍿")
 st.text("Pick a movie of your choice from 5000 movies given below")
